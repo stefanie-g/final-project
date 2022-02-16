@@ -46,12 +46,12 @@ li{
     font-size: 45px;
     border-radius: 8px;
     margin: 2px;
-    background-color: rgb(190, 214, 218);
+    /* background-color: rgb(190, 214, 218); */
     font-family: 'Sacramento', cursive;
     margin-left: 25px;
     clear: both;
     margin-top: 5px;
-    background-image: linear-gradient(to bottom right, rgba(190,214,218,0), rgba(190,214,218,1))
+    background-image: linear-gradient(to bottom, rgba(190,214,218,1), rgba(190,214,218,.25))
 }
 .shortbox{
     width: 45vw;
