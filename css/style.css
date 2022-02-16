@@ -1,0 +1,94 @@
+.fa-brands{
+    font-size: 64px;
+    padding: 30px;
+    background-color: #E1EBE2;
+    color: #7497A3;
+    text-shadow: -1px 0 black, 0 1 px black, 1 0px black, 0 -1px black ;
+    border-radius: 25%;
+}
+.longbox{
+    width: 93vw;
+    height: 10vw;
+    border: #8B7E6E solid 2px;
+    font-size: 3vw;
+    border-radius: 8px;
+    margin-left: 25px;
+    background-color: #BED6DA;
+    font-family: 'Sacramento', cursive;
+}
+nav a{
+    width: 100px;
+    padding: 25px 75px;
+    text-decoration: none;
+    color: #8B7E6E;
+    text-align: center;
+    margin-left: 35px;
+}
+nav a:hover{
+    background-color: #E1EBE2;
+    transition: .05s;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    width: 70vw;
+    margin: auto;
+    margin-top: 28px;
+}
+li{
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+}
+.longboxfoot{
+    width: 93vw;
+    height: 15vw;
+    border: #8B7E6E solid 2px;
+    font-size: 45px;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: #BED6DA;
+    font-family: 'Sacramento', cursive;
+    bottom: 0;
+    margin-left: 25px;
+    clear: both;
+    margin-top: 30px;
+    column-count: 2;
+}
+.shortbox{
+    width: 45vw;
+    height: 30vw;
+    border: #8B7E6E solid 2px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.floatleft{
+    float: left;
+}
+.logo{
+    position: sticky;
+    top: 0;
+}
+.hanger{
+    max-width: 8%;
+    max-height: 8%;
+    transform: scale(10);
+    float: left; 
+    margin-left: 155px;
+    margin-top: 175px;
+}
+.hdesc{
+    font-family: 'Playfair Display', serif;
+    text-align: right;
+    font-size: 2vw;
+    padding-right: 25px;
+    color: #7497A3;
+    padding-top: 30px;
+}
+.footlist{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+    display: list-item;
+    padding: .50vw 2vw;
+}
