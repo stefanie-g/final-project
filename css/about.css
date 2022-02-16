@@ -11,8 +11,10 @@
 .skills{
     font-family: 'Playfair Display', serif;
     padding-left: 3vw;
-    font-size: 2vw;
+    font-size: 1.75vw;
     color: white;
+    line-height: 1.2;
+    text-align: center;
 }
 .videobox{
     width: 85vw;
