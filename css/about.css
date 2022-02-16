@@ -1,0 +1,16 @@
+.skillsbox{
+    width: 85vw;
+    height: 25vw;
+    border: #8B7E6E solid 2px;
+    border-radius: 8px;
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #8b7e6e73;
+}
+.skills{
+    font-family: 'Playfair Display', serif;
+    padding-left: 3vw;
+    font-size: 2vw;
+    color: white;
+}

@@ -28,7 +28,7 @@ nav a:hover{
     background-color: #E1EBE2;
     transition: .05s;
 }
-ul{
+.navul{
     padding: 0;
     list-style: none;
     width: 70vw;
@@ -46,13 +46,12 @@ li{
     font-size: 45px;
     border-radius: 8px;
     margin: 2px;
-    background-color: #BED6DA;
+    background-color: rgb(190, 214, 218);
     font-family: 'Sacramento', cursive;
-    bottom: 0;
     margin-left: 25px;
     clear: both;
-    margin-top: 30px;
-    column-count: 2;
+    margin-top: 5px;
+    background-image: linear-gradient(to bottom right, rgba(190,214,218,0), rgba(190,214,218,1))
 }
 .shortbox{
     width: 45vw;
@@ -90,5 +89,24 @@ li{
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
     display: list-item;
-    padding: .50vw 2vw;
+    color: #585046;
+}
+footer ul{
+    display: inline-block;
+    width: 25vw;
+    padding-left: 1.5vw;
+    list-style: none;
+    margin: auto;
+    padding-top: 1.5vw;
+}
+.column2{
+    position: relative;
+    bottom: 35px;
+}
+footer ul li{
+    margin-bottom: 1vw;
+}
+footer a{
+    text-decoration: none;
+    color: #8B7E6E;  
 }
