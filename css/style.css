@@ -1,3 +1,6 @@
+*{
+box-sizing: border-box;
+}
 .fa-brands{
     font-size: 64px;
     padding: 30px;
@@ -12,9 +15,8 @@
     border: #8B7E6E solid 2px;
     font-size: 3vw;
     border-radius: 8px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     background-color: #BED6DA;
-    font-family: 'Sacramento', cursive;
 }
 nav a{
     width: 100px;
@@ -23,6 +25,7 @@ nav a{
     color: #8B7E6E;
     text-align: center;
     margin-left: 35px;
+    font-family: 'Sacramento', cursive;
 }
 nav a:hover{
     background-color: #E1EBE2;
@@ -35,22 +38,20 @@ nav a:hover{
     margin: auto;
     margin-top: 28px;
 }
-li{
+.navul > li{
     display: inline-block;
-    font-family: 'Sacramento', cursive;
 }
 .longboxfoot{
     width: 93vw;
-    height: 15vw;
+    height: 35vh;
     border: #8B7E6E solid 2px;
-    font-size: 45px;
+    /* font-size: 45px; */
     border-radius: 8px;
     margin: 2px;
     /* background-color: rgb(190, 214, 218); */
-    font-family: 'Sacramento', cursive;
     margin-left: 25px;
     clear: both;
-    margin-top: 5px;
+    /* margin-top: 2px; */
     background-image: linear-gradient(to bottom, rgba(190,214,218,1), rgba(190,214,218,.25))
 }
 .shortbox{
@@ -87,9 +88,9 @@ li{
 }
 .footlist{
     font-family: 'Playfair Display', serif;
-    font-size: 1.5vw;
     /* display: list-item; */
     color: #585046;
+    /* font-size: large; */
 }
 footer ul{
     display: inline-block;
@@ -97,31 +98,47 @@ footer ul{
     padding-left: 1.5vw;
     list-style: none;
     margin: auto;
-    padding-top: 1.5vw;
+    font-size: 22px;
+    /* padding-top: 1.5vw; */
 }
-.column2{
+/* .column2{
     position: relative;
     bottom: 35px;
-}
+} */
 /* footer ul li{
     margin-bottom: 1vw;
 } */
 footer a{
     text-decoration: none;
-    color: #8B7E6E;  
+    color: #8B7E6E; 
+    /* font-size: large;  */
 }
+
 .jj{
-    max-width: 2%;
-    max-height: 2%;
-    transform: scale(8);
+    height: 240px; 
+    width: 160px;
+    /* max-width: 10%;*/
+    /* max-height: 10%;*/
+    /* transform: scale(9);*/
     /* float: left;  */
-    margin-left: 15px;
-    margin-top: 145px;
+    /* margin-left: 55px;*/
+    /* margin-top: 145px; */
 }
 .footbox{
-    display: inline;
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-top: 35px;
+}
+.footboxl{
+    width: 25%;
+    margin-top: 3px;
 }
 .igjj{
-    position: relative;
-    top: -25px;
+    /* position: relative; */
+    top: 5px;
+    margin-left: 65px;
+}
+
+.icons{
+    padding-left: 52px;
 }
