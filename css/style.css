@@ -88,7 +88,7 @@ li{
 .footlist{
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw;
-    display: list-item;
+    /* display: list-item; */
     color: #585046;
 }
 footer ul{
@@ -103,9 +103,9 @@ footer ul{
     position: relative;
     bottom: 35px;
 }
-footer ul li{
+/* footer ul li{
     margin-bottom: 1vw;
-}
+} */
 footer a{
     text-decoration: none;
     color: #8B7E6E;  
@@ -117,4 +117,11 @@ footer a{
     /* float: left;  */
     margin-left: 15px;
     margin-top: 145px;
+}
+.footbox{
+    display: inline;
+}
+.igjj{
+    position: relative;
+    top: -25px;
 }
